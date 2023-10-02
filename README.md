@@ -31,7 +31,7 @@ This is a full-stack blogging website that allows users to create and share thei
 
 ### Register Page
 
-![Register Page](client/register.png)
+![Register Page](client/regiter.png)
 
 ### Display Blogs Page
 
@@ -63,13 +63,13 @@ Open your browser and navigate to http://localhost:3000 (or the specified port).
 
 ## API Routes
 
-POST /api/auth/register: Register a new user.
-POST /api/auth/login: Log in and obtain JWT token.
-GET /api/posts: Get all blog posts.
-GET /api/posts/:postId: Get a specific blog post.
-POST /api/posts: Create a new blog post (requires authentication).
-PUT /api/posts/:postId: Update a blog post (requires authentication).
-DELETE /api/posts/:postId: Delete a blog post (requires authentication).
+- POST /api/auth/register: Register a new user.
+- POST /api/auth/login: Log in and obtain JWT token.
+- GET /api/posts: Get all blog posts.
+- GET /api/posts/:postId: Get a specific blog post.
+- POST /api/posts: Create a new blog post (requires authentication).
+- PUT /api/posts/:postId: Update a blog post (requires authentication).
+- DELETE /api/posts/:postId: Delete a blog post (requires authentication).
 
 ## Contribution Guidelines
 
